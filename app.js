@@ -114,7 +114,6 @@ const port = process.env.PORT || 3000
 const host = process.env.HOST || ''
 
 app.server = app.listen(port, host, () => {
-  console.log('欢迎使用硅谷云音乐服务器');
   console.log('服务器地址： http://localhost:3000')
 })
 
